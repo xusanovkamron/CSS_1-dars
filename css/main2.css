@@ -1,0 +1,47 @@
+body {
+    background-color: brown;
+    background-image: url("../rasmlar/SupraMK4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.box{
+    color: white;
+   /*border: 5px solid white;*/
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-top-width: 8px;
+    border-right-width: 7px;
+    border-bottom-width: 10px;
+    border-left-width: 6px;
+    border-top-style: double;
+    border-right-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: groove;
+    border-top-color: red;
+    border-right-color: black;
+    border-bottom-color: blue;
+    border-left-color: green;
+    border-radius: 20px;
+    text-align:center;
+    text-transform: lowercase;
+    text-decoration: none;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-height: 5px;
+
+}
+.block{
+    background-color: white;
+    width: 500px;
+    height: 150px;
+    /*min-width: 50px;
+    min-height: 50px;
+    max-width: 500px;
+    max-height: 200px;*/
+    margin: 50px 150px 70px 40px;
+    margin: 100px auto;
+    padding: 30px 50px;
+    box-sizing: border-box;
+}
